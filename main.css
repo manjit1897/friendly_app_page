@@ -1,0 +1,117 @@
+
+footer {
+ }
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+.sidemenu
+{
+   color: #1d2129;	
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+}
+
+#main { background-color: orange; }
+
+#menu { background-color: pink; }
+
+#sidebar { background-color: yellow; }
+#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+}
+
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+    text-size:30px !important;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.panel-heading .post {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+#menu {
+    overflow: auto;
+}
+#menu::-webkit-scrollbar {
+    display: none;
+}
+.comment {
+    margin: 0;
+}
+.size
+{
+  font-size: 20px !important;
+}
+
+.time
+{
+  font-size: 15px;
+}
+.list-group-item-heading
+{
+  color:#365899 !important ;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.third-column
+{
+  background-color: white; 
+}
+.see_more
+{
+  display: inline;
+
+}
+.see_more1
+{
+  color: #666 !important;
+}
+.create_post_icon
+{
+  margin-right: 5px;
+  font-size:18px;
+}
+.create_post_text
+{
+  margin-right: 15px;
+  font-size:15px;
+  font-weight: bold;
+}
+.freinds_button
+{
+  margin-right: 10px;
+}

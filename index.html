@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+
+<body>
+ <header>
+      <nav class="navbar navbar-default" id="header">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <i class="fa fa-facebook-official" style="font-size:37px; margin:6px 4px ; ;color:white"></i>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search" size="70">
+          
+        </div>
+        <button type="submit" class="btn btn-default" > 
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+       
+      </form>
+
+
+        <ul class="nav navbar-nav navbar-right">
+    <li><a class="white-text size" href="#">Sunny</a></li>
+    <li><a class="white-text size" href="#">Home</a></li>
+    <li><a class="white-text size" href="#"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+    <li><a class="white-text size" href="#"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+    <li><a class="white-text size" href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+    
+    <li><a class="white-text size" href="#"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+
+    <li><a class="white-text size" href="#"><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ </header>
+    <div class="container" id="wrapper">
+      <div class="row">
+        <div class="hidden-xs col-sm-4 col-md-3">
+          <div id="menu">
+            <ul class="nav nav-pills nav-stacked">
+              <li role="presentation" ><a class="sidemenu see_more" href="#">
+                   <img class="media-object see_more" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=30px width=30px alt="media-objectImage">
+                   Sunny Kumar</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-newspaper-o" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>News Feed<span class="badge" >4</span></a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-envelope" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Messenger</a></li>
+            </ul>
+
+            <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading" style="font-weight: bold;">Shortcuts</p>
+                 <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-university" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>AcadView</a></li>
+                 <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-header" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>HTML</a></li>
+                 <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-github-alt" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Github</a></li>
+            </ul>
+
+
+            <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading" style="font-weight: bold;">EXPLORE</p>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-calendar" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Events </a></li>  
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-gift" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Birthday</a></li>                                                  
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-paste" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Pages</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-group" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Groups</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-user" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Friend list</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-history" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>On this Day</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-paste" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Pages feed</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-photo" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Photos</a></li>
+              
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-hand-o-right" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Pokes</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-user" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Find Friends</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-shopping-bag" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Shops</a></li>
+              <li role="presentation"><a class="sidemenu" href="#"><i class="fa fa-cloud" style="font-size:20px; margin:6px 4px ; ;color:#365899"></i>Weather</a></li>
+            </ul>   
+         </div> 
+        </div>
+    <div class="col-xs-12 col-sm-8 col-md-6">
+        <div id="main">
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+               <div class="post">
+                 
+               <span class= "create_post_text" style="color: #365899">
+                 <span class="glyphicon glyphicon-pencil create_post_icon" aria-hidden="true"></span>Create a Post</span>
+               <span class= "create_post_text" style="color: #365899"><span class="glyphicon glyphicon-picture create_post_icon" aria-hidden="true"></span>Photo/Video Album</span>
+               <span class= "create_post_text" style="color: #365899"><span class="glyphicon glyphicon-facetime-video create_post_icon" aria-hidden="true"></span>Live Video</span>
+               </div>
+            </div>
+            <div class="panel-body">
+              <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=47px width=47px alt="media-objectImage">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h3 class="media-heading "><p class="comment"> <span><a href="#">What's on your mind? </a></span></p>
+                   <div> 
+                    </div>
+                    </h3>
+                   </div>
+              </div>
+            </div>
+            <div class="panel-footer" style="height: 60px;">
+              <div>
+                <button class="see_more" style="float: right; overflow: hidden; font-weight: bold; font-size: 17px; padding: 5px;">Post</button>
+                <button class="freinds_button see_more" style="float: right; overflow: hidden; font-weight: bold; font-size: 17px;"><i class="fa fa-user see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Friends<i class="fa fa-sort-desc see_more " style="font-size:20px; color:#4b4f56"></i></button>
+              </div> 
+            </div>
+          </div>
+
+           
+                     
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=47px width=47px alt="media-objectImage">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h3 class="media-heading "><p class="comment"> <span><a href="#">sunny kumar</a></span></p>
+                       <div>
+                       <a class="time" >37 min .</a><span class="glyphicon glyphicon-globe time" aria-hidden="true"></span>
+                     </div>
+                   <div> 
+                    </div>
+                    </h3>
+                   </div>
+              </div>
+            </div>
+            <div class="panel-body">
+
+            <div class="embed-responsive embed-responsive-16by9">
+             
+              <video  class="embed-responsive-item" controls="" src="SMG7.mp4" width="640" height="288" style="width: 500px; height: 288px; ">
+            </video>
+             
+               <!-- <iframe class="embed-responsive-item" height="288" width="423" frameborder="0" allowfullscreen src="SMG7.mp4"></iframe>
+                --></div>
+
+              <div>  
+                <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small>
+              </div>
+            </div>
+            <div class="panel-footer">
+              
+             <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/c0.0.320.320/p320x320/15036632_1008288875947276_7447898498572189147_n.jpg?oh=c6655f162ad6b4ee190afce6f73c2e0b&oe=59CD0148" hidden="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Navi Saran </a></span> <small>OMG SOOOOOO CUTE i would love to do something like that 
+😁😙🎵﻿ </small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+            
+            <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/p320x320/16998035_337845076612004_531617798926614907_n.jpg?oh=1b89e83a6e49a59845a52537afc4a00c&oe=59C921FA" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Prince Dhiman </a></span> <small>What a beautiful music...nd sooo nice salsa dance </small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+
+
+<div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/p320x320/13501564_1638531039806916_373346090496859426_n.jpg?oh=235babb79ac93baa26613f646a145d99&oe=5A0EE187" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Abhi Sarangal </a></span> <small>😇😯😮😲😍😘😚😰💑👫❤💙💚💛💜💓💕💖💗💝💞💟👍👌👏﻿ </small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+             
+             <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/p320x320/17883921_1176446142465453_8330457870900972635_n.jpg?oh=6a97c5b1066ae3e79bbb8bc4bddeea6c&oe=5A07FEA2" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Hans Pardeep </a></span> <small>they dance really good I wish I could dance that good﻿
+❤💙💚💛💜💓💕💖💗💝💞💟👍👌👏﻿ </small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+               <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/c141.0.320.320/p320x320/17264827_1295702037188765_3181161574465213668_n.jpg?oh=e020927dab619076f9964ca5dcff62e9&oe=5A09F33B" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Sudhir Kumar Chaudhary </a></span> <small>beautiful dance</small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+
+
+            </div>
+          </div>
+             
+                            
+          
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=47px width=47px alt="media-objectImage">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h3 class="media-heading "><p class="comment"> <span><a href="#">sunny kumar</a></span></p>
+                    <div>
+                       <a class="time" >15 hr .</a><span class="glyphicon glyphicon-globe time" aria-hidden="true"></span>
+                     </div> 
+                  <div> 
+                    </div>
+                    </h3>
+                   </div>
+              </div>
+            </div>
+            <div class="panel-body">
+            <div class="image-post"><img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+            </div>
+              <div>  <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small>
+              </div>
+            </div>
+            <div class="panel-footer">
+              
+            
+               <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/p320x320/18893105_1407459762632911_4835578557011988028_n.jpg?oh=3faa14a67bde18331899b94217184dbb&oe=5A08E1B1" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Anshuman Jinadal </a></span> <small></small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=47px width=47px alt="media-objectImage">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h3 class="media-heading "><p class="comment"> <span><a href="#">sunny kumar</a></span></p>
+                     <div>
+                       <a class="time" >1 day .</a><span class="glyphicon glyphicon-global" aria-hidden="true"></span>
+                     </div>
+                   <div> 
+                    </div>
+                    </h3>
+                   </div>
+              </div>
+            </div>
+
+            <div class="panel-body">
+              <div><h3 class="text-post">बैंक मेनेजर -: किस टाइप का लोन चाहिए..?<br>
+:-:<br>
+:-:<br>
+:-:<br>
+:-:<br>
+संता-: जी वो विजय माल्या टाइप का। 😎
+😉😜😂😂😂 </h3>
+              </div>
+               <div>  <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/c0.38.320.320/p320x320/15741074_1828806797376554_4242717919441110778_n.jpg?oh=e3582a673cb6479d1af98f58c3e4611b&oe=5A027E57" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Varun Kuamr</a></span> <small>I also want this type of loan....😂😂😂</small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+
+
+             </div>
+          </div>
+
+
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://pbs.twimg.com/profile_images/849311933358583809/JF16v4GD_bigger.jpg" height=47px width=47px alt="media-objectImage">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h3 class="media-heading "><p class="comment"> <span><a href="#">sunny kumar</a></span></p>
+                       <div>
+                       <a class="time" > 3 day .</a><span class="glyphicon glyphicon-globe time" aria-hidden="true"></span>
+                       </div>
+                   <div> 
+                    </div>
+                    </h3>
+                   </div>
+              </div>
+            </div>
+
+            <div class="panel-body">
+              <blockquote>
+                <p>जिस दिन भी सोचता हूँ की<br>
+
+बहोत बड़े काम करने है जिंदगी में<br>
+.<br>
+.<br>
+घर वाले उसी दिन सब्जी लाने भेज देते हैं । 🤔🤥
+😂😂😂</p>
+                
+              </blockquote>
+              <div>  <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small>
+              </div>
+            </div>
+
+            <div class="panel-footer">
+               <div class="media">
+                 <div class="media-left">
+                   <a href="#">
+                     <img class="media-object" src="https://scontent.fdel1-2.fna.fbcdn.net/v/t1.0-1/c0.0.320.320/p320x320/15941252_1061884550588286_1899698795861640461_n.jpg?oh=b03f1cf246b5f4e1aa95e6e23f827616&oe=5A0E498B" height="40px" width="40px">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                  <h4 class="media-heading"><p class="comment"> <span><a href="#">Akashdeep Saraswat </a></span> <small>LoL....😎 😉😜😂😂😂</small></p>
+                   <div>
+                   <small> 
+                     <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-thumbs-up see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Like </a></span> <span> <a href="#" style="font-weight: bold; font-size: 16px; color: #4b4f56;"><i class="fa fa-comment see_more" style="font-size:20px; margin:6px 4px ; ;color:#4b4f56"></i>Comment </a></span></small> 
+                    </div>
+                    </h4>
+                   
+                   <input placeholder="Write a comment..."  style="width: 100%;margin-top: 15px;">
+                   </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+         
+                  </div>
+    </div>
+
+
+
+  <div class="hidden-xs hidden-sm col-md-3">
+  <div id="sidebar" class="third-column">
+    <div> 
+  <!-- Nav tabs -->
+      <ul class="nav nav-tabs"  role="tablist">
+        <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab">Trending</a></li>
+        <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-line-chart" style="font-size:20px;  color:#365899"></i></a></li>
+        <li role="presentation"><a  href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-institution" style="font-size:20px; color:#90949c"></i></a></li>
+        <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-soccer-ball-o" style="font-size:20px; color:#90949c"></i></a></li>
+      </ul>
+    <!-- Tab panes -->
+    <!-- <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="top">1</div>
+        <div role="tabpanel" class="tab-pane" id="politics">2</div>
+        <div role="tabpanel" class="tab-pane" id="sports">3</div>
+    </div>
+     --><div class="list-group">
+  <a href="#" class="list-group-item ">
+    <h5 class="list-group-item-heading">2017 G20 Hamburg Summit</h5>
+    <p class="list-group-item-text">No Modi-Xi meeting at G20 as 'atmosphere is not right - thehindu.com</p><br>
+    <h5 class="list-group-item-heading">Virat Kohli</h5>
+    <p class="list-group-item-text">Kohli breaks Tendulkar's record of most ODI centuries in chases -cricket.yahoo.com</p><br>
+    <h5 class="list-group-item-heading">Russia</h5>
+    <p class="list-group-item-text">Trump, ov eve of Putin meeting, says 'nobody really knows' about Russian... -usatoday.com</p><br>
+    <i class="fa fa-sort-desc see_more see_more1" style="font-size:20px; color:blue"></i>
+        <h5 class="list-group-item-heading see_more">See more</h5>
+         <i class="fa fa-question see_more see_more1" style="font-size:20px; color:blue; float:right;"></i>
+  </a>
+</div>
+
+
+    </div>
+  </div>
+  </div>
+
+
+      </div>
+    </div>
+
+
+<div id="main">
+    <div>
+        <img src="https://pbs.twimg.com/profile_images/1146014416/mark-zuckerberg.jpg"  style="float: left"; >
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio sint ipsa magnam, fugit eum, illo repellat quae facere laborum accusantium neque hic minima, qui animi quo nesciunt! Doloribus, quis, et.</p>
+    
+</div>
+
+     <footer>
+       <ul class="nav nav-pills pull-right">
+ <li role="presentation "><a href="# ">About Us</a></li>
+      <li role="presentation "><a href="# ">Home</a></li>
+      <li role=" presentation "><a href="# ">Privacy</a></li>
+      <li role="presentation "><a href="# ">Advertising</a></li>
+      <li role="presentation "><a href="# ">Cookies</a></li>
+      <li role="presentation "><a href="# ">Ad Choices</a></li>
+</ul>
+     </footer>
+  </div>
+  </body>
+</html>
